@@ -1,0 +1,2837 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "IosTrustedDeviceV2",
+    "printedName": "IosTrustedDeviceV2",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseMessaging",
+        "printedName": "FirebaseMessaging",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrossDeviceData",
+        "printedName": "CrossDeviceData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "merchantAppId",
+            "printedName": "merchantAppId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV205CrossC4DataV13merchantAppIdSSvp",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV13merchantAppIdSSvp",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV205CrossC4DataV13merchantAppIdSSvg",
+                "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV13merchantAppIdSSvg",
+                "moduleName": "IosTrustedDeviceV2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceReceive",
+            "printedName": "deviceReceive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV205CrossC4DataV13deviceReceiveSSvp",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV13deviceReceiveSSvp",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV205CrossC4DataV13deviceReceiveSSvg",
+                "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV13deviceReceiveSSvg",
+                "moduleName": "IosTrustedDeviceV2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceRequest",
+            "printedName": "deviceRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV205CrossC4DataV13deviceRequestSSvp",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV13deviceRequestSSvp",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV205CrossC4DataV13deviceRequestSSvg",
+                "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV13deviceRequestSSvg",
+                "moduleName": "IosTrustedDeviceV2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceIdReceive",
+            "printedName": "deviceIdReceive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV205CrossC4DataV15deviceIdReceiveSSvp",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV15deviceIdReceiveSSvp",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV205CrossC4DataV15deviceIdReceiveSSvg",
+                "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV15deviceIdReceiveSSvg",
+                "moduleName": "IosTrustedDeviceV2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceIdRequest",
+            "printedName": "deviceIdRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV205CrossC4DataV15deviceIdRequestSSvp",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV15deviceIdRequestSSvp",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV205CrossC4DataV15deviceIdRequestSSvg",
+                "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV15deviceIdRequestSSvg",
+                "moduleName": "IosTrustedDeviceV2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expired",
+            "printedName": "expired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV205CrossC4DataV7expiredSSvp",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV7expiredSSvp",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV205CrossC4DataV7expiredSSvg",
+                "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV7expiredSSvg",
+                "moduleName": "IosTrustedDeviceV2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV205CrossC4DataV6statusSSvp",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV6statusSSvp",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV205CrossC4DataV6statusSSvg",
+                "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV6statusSSvg",
+                "moduleName": "IosTrustedDeviceV2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notificationId",
+            "printedName": "notificationId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV205CrossC4DataV14notificationIdSSSgvp",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV14notificationIdSSSgvp",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV205CrossC4DataV14notificationIdSSSgvg",
+                "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV14notificationIdSSSgvg",
+                "moduleName": "IosTrustedDeviceV2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV205CrossC4DataV6actionSSSgvp",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV6actionSSSgvp",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV205CrossC4DataV6actionSSSgvg",
+                "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV6actionSSSgvg",
+                "moduleName": "IosTrustedDeviceV2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CrossDeviceData",
+                "printedName": "IosTrustedDeviceV2.CrossDeviceData",
+                "usr": "s:18IosTrustedDeviceV205CrossC4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18IosTrustedDeviceV205CrossC4DataV4dataACSDys11AnyHashableVypG_tcfc",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV4dataACSDys11AnyHashableVypG_tcfc",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isNotNull",
+            "printedName": "isNotNull()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV205CrossC4DataV9isNotNullSbyF",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV9isNotNullSbyF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toDict",
+            "printedName": "toDict()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV205CrossC4DataV6toDictSDyS2SSgGyF",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV6toDictSDyS2SSgGyF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18IosTrustedDeviceV205CrossC4DataV",
+        "mangledName": "$s18IosTrustedDeviceV205CrossC4DataV",
+        "moduleName": "IosTrustedDeviceV2",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrossDeviceDataStream",
+        "printedName": "CrossDeviceDataStream",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "listen",
+            "printedName": "listen(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IosTrustedDeviceV2.CrossDeviceData) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossDeviceData",
+                    "printedName": "IosTrustedDeviceV2.CrossDeviceData",
+                    "usr": "s:18IosTrustedDeviceV205CrossC4DataV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV205CrossC10DataStreamC6listen8callbackyyAA0ecF0Vc_tF",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC10DataStreamC6listen8callbackyyAA0ecF0Vc_tF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV205CrossC10DataStreamC5closeyyF",
+            "mangledName": "$s18IosTrustedDeviceV205CrossC10DataStreamC5closeyyF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18IosTrustedDeviceV205CrossC10DataStreamC",
+        "mangledName": "$s18IosTrustedDeviceV205CrossC10DataStreamC",
+        "moduleName": "IosTrustedDeviceV2",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Fazpass",
+        "printedName": "Fazpass",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Fazpass",
+                "printedName": "IosTrustedDeviceV2.Fazpass",
+                "usr": "c:@M@IosTrustedDeviceV2@objc(cs)Fazpass"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV27FazpassC6sharedACvpZ",
+            "mangledName": "$s18IosTrustedDeviceV27FazpassC6sharedACvpZ",
+            "moduleName": "IosTrustedDeviceV2",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Fazpass",
+                    "printedName": "IosTrustedDeviceV2.Fazpass",
+                    "usr": "c:@M@IosTrustedDeviceV2@objc(cs)Fazpass"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV27FazpassC6sharedACvgZ",
+                "mangledName": "$s18IosTrustedDeviceV27FazpassC6sharedACvgZ",
+                "moduleName": "IosTrustedDeviceV2",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "`init`",
+            "printedName": "`init`(publicKeyAssetName:application:fcmAppId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV27FazpassC4init18publicKeyAssetName11application8fcmAppIdySS_So13UIApplicationCSStF",
+            "mangledName": "$s18IosTrustedDeviceV27FazpassC4init18publicKeyAssetName11application8fcmAppIdySS_So13UIApplicationCSStF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initWithRawPublicKey",
+            "printedName": "initWithRawPublicKey(rawPublicKey:application:fcmAppId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV27FazpassC20initWithRawPublicKey03rawiJ011application8fcmAppIdySS_So13UIApplicationCSStF",
+            "mangledName": "$s18IosTrustedDeviceV27FazpassC20initWithRawPublicKey03rawiJ011application8fcmAppIdySS_So13UIApplicationCSStF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerDeviceToken",
+            "printedName": "registerDeviceToken(deviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV27FazpassC08registerC5Token06deviceG0y10Foundation4DataV_tF",
+            "mangledName": "$s18IosTrustedDeviceV27FazpassC08registerC5Token06deviceG0y10Foundation4DataV_tF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateMeta",
+            "printedName": "generateMeta(accountIndex:biometricAuth:biometricMessage:resultBlock:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, IosTrustedDeviceV2.FazpassError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, IosTrustedDeviceV2.FazpassError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "IosTrustedDeviceV2.FazpassError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FazpassError",
+                            "printedName": "IosTrustedDeviceV2.FazpassError",
+                            "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV27FazpassC12generateMeta12accountIndex13biometricAuth0J7Message11resultBlockySi_SbSSySS_AA0E5ErrorOSgtctF",
+            "mangledName": "$s18IosTrustedDeviceV27FazpassC12generateMeta12accountIndex13biometricAuth0J7Message11resultBlockySi_SbSSySS_AA0E5ErrorOSgtctF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateNewSecretKey",
+            "printedName": "generateNewSecretKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV27FazpassC20generateNewSecretKeyyyKF",
+            "mangledName": "$s18IosTrustedDeviceV27FazpassC20generateNewSecretKeyyyKF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSettings",
+            "printedName": "setSettings(accountIndex:settings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IosTrustedDeviceV2.FazpassSettings?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FazpassSettings",
+                    "printedName": "IosTrustedDeviceV2.FazpassSettings",
+                    "usr": "s:18IosTrustedDeviceV215FazpassSettingsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV27FazpassC11setSettings12accountIndex8settingsySi_AA0eG0VSgtF",
+            "mangledName": "$s18IosTrustedDeviceV27FazpassC11setSettings12accountIndex8settingsySi_AA0eG0VSgtF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSettings",
+            "printedName": "getSettings(accountIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IosTrustedDeviceV2.FazpassSettings?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FazpassSettings",
+                    "printedName": "IosTrustedDeviceV2.FazpassSettings",
+                    "usr": "s:18IosTrustedDeviceV215FazpassSettingsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV27FazpassC11getSettings12accountIndexAA0eG0VSgSi_tF",
+            "mangledName": "$s18IosTrustedDeviceV27FazpassC11getSettings12accountIndexAA0eG0VSgSi_tF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCrossDeviceDataStreamInstance",
+            "printedName": "getCrossDeviceDataStreamInstance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CrossDeviceDataStream",
+                "printedName": "IosTrustedDeviceV2.CrossDeviceDataStream",
+                "usr": "s:18IosTrustedDeviceV205CrossC10DataStreamC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV27FazpassC08getCrossC18DataStreamInstanceAA0gchI0CyF",
+            "mangledName": "$s18IosTrustedDeviceV27FazpassC08getCrossC18DataStreamInstanceAA0gchI0CyF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCrossDeviceDataFromNotification",
+            "printedName": "getCrossDeviceDataFromNotification(userInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IosTrustedDeviceV2.CrossDeviceData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossDeviceData",
+                    "printedName": "IosTrustedDeviceV2.CrossDeviceData",
+                    "usr": "s:18IosTrustedDeviceV205CrossC4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV27FazpassC08getCrossC20DataFromNotification8userInfoAA0gcH0VSgSDys11AnyHashableVypGSg_tF",
+            "mangledName": "$s18IosTrustedDeviceV27FazpassC08getCrossC20DataFromNotification8userInfoAA0gcH0VSgSDys11AnyHashableVypGSg_tF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IosTrustedDeviceV2@objc(cs)Fazpass",
+        "mangledName": "$s18IosTrustedDeviceV27FazpassC",
+        "moduleName": "IosTrustedDeviceV2",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FazpassError",
+        "printedName": "FazpassError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "biometricNoneEnrolled",
+            "printedName": "biometricNoneEnrolled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IosTrustedDeviceV2.FazpassError.Type) -> IosTrustedDeviceV2.FazpassError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FazpassError",
+                    "printedName": "IosTrustedDeviceV2.FazpassError",
+                    "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IosTrustedDeviceV2.FazpassError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FazpassError",
+                        "printedName": "IosTrustedDeviceV2.FazpassError",
+                        "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18IosTrustedDeviceV212FazpassErrorO21biometricNoneEnrolledyA2CmF",
+            "mangledName": "$s18IosTrustedDeviceV212FazpassErrorO21biometricNoneEnrolledyA2CmF",
+            "moduleName": "IosTrustedDeviceV2"
+          },
+          {
+            "kind": "Var",
+            "name": "biometricAuthFailed",
+            "printedName": "biometricAuthFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IosTrustedDeviceV2.FazpassError.Type) -> IosTrustedDeviceV2.FazpassError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FazpassError",
+                    "printedName": "IosTrustedDeviceV2.FazpassError",
+                    "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IosTrustedDeviceV2.FazpassError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FazpassError",
+                        "printedName": "IosTrustedDeviceV2.FazpassError",
+                        "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18IosTrustedDeviceV212FazpassErrorO19biometricAuthFailedyA2CmF",
+            "mangledName": "$s18IosTrustedDeviceV212FazpassErrorO19biometricAuthFailedyA2CmF",
+            "moduleName": "IosTrustedDeviceV2"
+          },
+          {
+            "kind": "Var",
+            "name": "biometricNotAvailable",
+            "printedName": "biometricNotAvailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IosTrustedDeviceV2.FazpassError.Type) -> (Swift.String) -> IosTrustedDeviceV2.FazpassError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> IosTrustedDeviceV2.FazpassError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FazpassError",
+                        "printedName": "IosTrustedDeviceV2.FazpassError",
+                        "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IosTrustedDeviceV2.FazpassError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FazpassError",
+                        "printedName": "IosTrustedDeviceV2.FazpassError",
+                        "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18IosTrustedDeviceV212FazpassErrorO21biometricNotAvailableyACSS_tcACmF",
+            "mangledName": "$s18IosTrustedDeviceV212FazpassErrorO21biometricNotAvailableyACSS_tcACmF",
+            "moduleName": "IosTrustedDeviceV2"
+          },
+          {
+            "kind": "Var",
+            "name": "biometricNotInteractive",
+            "printedName": "biometricNotInteractive",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IosTrustedDeviceV2.FazpassError.Type) -> IosTrustedDeviceV2.FazpassError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FazpassError",
+                    "printedName": "IosTrustedDeviceV2.FazpassError",
+                    "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IosTrustedDeviceV2.FazpassError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FazpassError",
+                        "printedName": "IosTrustedDeviceV2.FazpassError",
+                        "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18IosTrustedDeviceV212FazpassErrorO23biometricNotInteractiveyA2CmF",
+            "mangledName": "$s18IosTrustedDeviceV212FazpassErrorO23biometricNotInteractiveyA2CmF",
+            "moduleName": "IosTrustedDeviceV2"
+          },
+          {
+            "kind": "Var",
+            "name": "encryptionError",
+            "printedName": "encryptionError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IosTrustedDeviceV2.FazpassError.Type) -> (Swift.String) -> IosTrustedDeviceV2.FazpassError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> IosTrustedDeviceV2.FazpassError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FazpassError",
+                        "printedName": "IosTrustedDeviceV2.FazpassError",
+                        "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IosTrustedDeviceV2.FazpassError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FazpassError",
+                        "printedName": "IosTrustedDeviceV2.FazpassError",
+                        "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18IosTrustedDeviceV212FazpassErrorO010encryptionF0yACSS_tcACmF",
+            "mangledName": "$s18IosTrustedDeviceV212FazpassErrorO010encryptionF0yACSS_tcACmF",
+            "moduleName": "IosTrustedDeviceV2"
+          },
+          {
+            "kind": "Var",
+            "name": "publicKeyNotExist",
+            "printedName": "publicKeyNotExist",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IosTrustedDeviceV2.FazpassError.Type) -> IosTrustedDeviceV2.FazpassError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FazpassError",
+                    "printedName": "IosTrustedDeviceV2.FazpassError",
+                    "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IosTrustedDeviceV2.FazpassError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FazpassError",
+                        "printedName": "IosTrustedDeviceV2.FazpassError",
+                        "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18IosTrustedDeviceV212FazpassErrorO17publicKeyNotExistyA2CmF",
+            "mangledName": "$s18IosTrustedDeviceV212FazpassErrorO17publicKeyNotExistyA2CmF",
+            "moduleName": "IosTrustedDeviceV2"
+          },
+          {
+            "kind": "Var",
+            "name": "uninitialized",
+            "printedName": "uninitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IosTrustedDeviceV2.FazpassError.Type) -> IosTrustedDeviceV2.FazpassError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FazpassError",
+                    "printedName": "IosTrustedDeviceV2.FazpassError",
+                    "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IosTrustedDeviceV2.FazpassError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FazpassError",
+                        "printedName": "IosTrustedDeviceV2.FazpassError",
+                        "usr": "s:18IosTrustedDeviceV212FazpassErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18IosTrustedDeviceV212FazpassErrorO13uninitializedyA2CmF",
+            "mangledName": "$s18IosTrustedDeviceV212FazpassErrorO13uninitializedyA2CmF",
+            "moduleName": "IosTrustedDeviceV2"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18IosTrustedDeviceV212FazpassErrorO",
+        "mangledName": "$s18IosTrustedDeviceV212FazpassErrorO",
+        "moduleName": "IosTrustedDeviceV2",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FazpassSettings",
+        "printedName": "FazpassSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sensitiveData",
+            "printedName": "sensitiveData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[IosTrustedDeviceV2.SensitiveData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SensitiveData",
+                    "printedName": "IosTrustedDeviceV2.SensitiveData",
+                    "usr": "s:18IosTrustedDeviceV213SensitiveDataO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV215FazpassSettingsV13sensitiveDataSayAA09SensitiveH0OGvp",
+            "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV13sensitiveDataSayAA09SensitiveH0OGvp",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[IosTrustedDeviceV2.SensitiveData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SensitiveData",
+                        "printedName": "IosTrustedDeviceV2.SensitiveData",
+                        "usr": "s:18IosTrustedDeviceV213SensitiveDataO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV215FazpassSettingsV13sensitiveDataSayAA09SensitiveH0OGvg",
+                "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV13sensitiveDataSayAA09SensitiveH0OGvg",
+                "moduleName": "IosTrustedDeviceV2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isBiometricLevelHigh",
+            "printedName": "isBiometricLevelHigh",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV215FazpassSettingsV20isBiometricLevelHighSbvp",
+            "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV20isBiometricLevelHighSbvp",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV215FazpassSettingsV20isBiometricLevelHighSbvg",
+                "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV20isBiometricLevelHighSbvg",
+                "moduleName": "IosTrustedDeviceV2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fromString",
+            "printedName": "fromString(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FazpassSettings",
+                "printedName": "IosTrustedDeviceV2.FazpassSettings",
+                "usr": "s:18IosTrustedDeviceV215FazpassSettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV215FazpassSettingsV10fromStringyACSSFZ",
+            "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV10fromStringyACSSFZ",
+            "moduleName": "IosTrustedDeviceV2",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toString",
+            "printedName": "toString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IosTrustedDeviceV215FazpassSettingsV8toStringSSyF",
+            "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV8toStringSSyF",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "sensitiveDataList",
+                "printedName": "sensitiveDataList",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[IosTrustedDeviceV2.SensitiveData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SensitiveData",
+                        "printedName": "IosTrustedDeviceV2.SensitiveData",
+                        "usr": "s:18IosTrustedDeviceV213SensitiveDataO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC17sensitiveDataListSayAA09SensitiveI0OGvp",
+                "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV7BuilderC17sensitiveDataListSayAA09SensitiveI0OGvp",
+                "moduleName": "IosTrustedDeviceV2",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "SetterAccess",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[IosTrustedDeviceV2.SensitiveData]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SensitiveData",
+                            "printedName": "IosTrustedDeviceV2.SensitiveData",
+                            "usr": "s:18IosTrustedDeviceV213SensitiveDataO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC17sensitiveDataListSayAA09SensitiveI0OGvg",
+                    "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV7BuilderC17sensitiveDataListSayAA09SensitiveI0OGvg",
+                    "moduleName": "IosTrustedDeviceV2",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "isBiometricLevelHigh",
+                "printedName": "isBiometricLevelHigh",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC20isBiometricLevelHighSbvp",
+                "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV7BuilderC20isBiometricLevelHighSbvp",
+                "moduleName": "IosTrustedDeviceV2",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "SetterAccess",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC20isBiometricLevelHighSbvg",
+                    "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV7BuilderC20isBiometricLevelHighSbvg",
+                    "moduleName": "IosTrustedDeviceV2",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "IosTrustedDeviceV2.FazpassSettings.Builder",
+                    "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderCAEycfc",
+                "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV7BuilderCAEycfc",
+                "moduleName": "IosTrustedDeviceV2",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "enableSelectedSensitiveData",
+                "printedName": "enableSelectedSensitiveData(sensitiveData:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "IosTrustedDeviceV2.FazpassSettings.Builder",
+                    "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[IosTrustedDeviceV2.SensitiveData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SensitiveData",
+                        "printedName": "IosTrustedDeviceV2.SensitiveData",
+                        "usr": "s:18IosTrustedDeviceV213SensitiveDataO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC27enableSelectedSensitiveData09sensitiveK0AeA0jK0Od_tF",
+                "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV7BuilderC27enableSelectedSensitiveData09sensitiveK0AeA0jK0Od_tF",
+                "moduleName": "IosTrustedDeviceV2",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "disableSelectedSensitiveData",
+                "printedName": "disableSelectedSensitiveData(sensitiveData:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "IosTrustedDeviceV2.FazpassSettings.Builder",
+                    "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[IosTrustedDeviceV2.SensitiveData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SensitiveData",
+                        "printedName": "IosTrustedDeviceV2.SensitiveData",
+                        "usr": "s:18IosTrustedDeviceV213SensitiveDataO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC28disableSelectedSensitiveData09sensitiveK0AeA0jK0Od_tF",
+                "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV7BuilderC28disableSelectedSensitiveData09sensitiveK0AeA0jK0Od_tF",
+                "moduleName": "IosTrustedDeviceV2",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setBiometricLevelToHigh",
+                "printedName": "setBiometricLevelToHigh()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "IosTrustedDeviceV2.FazpassSettings.Builder",
+                    "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC23setBiometricLevelToHighAEyF",
+                "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV7BuilderC23setBiometricLevelToHighAEyF",
+                "moduleName": "IosTrustedDeviceV2",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setBiometricLevelToLow",
+                "printedName": "setBiometricLevelToLow()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "IosTrustedDeviceV2.FazpassSettings.Builder",
+                    "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC22setBiometricLevelToLowAEyF",
+                "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV7BuilderC22setBiometricLevelToLowAEyF",
+                "moduleName": "IosTrustedDeviceV2",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FazpassSettings",
+                    "printedName": "IosTrustedDeviceV2.FazpassSettings",
+                    "usr": "s:18IosTrustedDeviceV215FazpassSettingsV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC5buildACyF",
+                "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV7BuilderC5buildACyF",
+                "moduleName": "IosTrustedDeviceV2",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:18IosTrustedDeviceV215FazpassSettingsV7BuilderC",
+            "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV7BuilderC",
+            "moduleName": "IosTrustedDeviceV2",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18IosTrustedDeviceV215FazpassSettingsV",
+        "mangledName": "$s18IosTrustedDeviceV215FazpassSettingsV",
+        "moduleName": "IosTrustedDeviceV2",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SensitiveData",
+        "printedName": "SensitiveData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "location",
+            "printedName": "location",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IosTrustedDeviceV2.SensitiveData.Type) -> IosTrustedDeviceV2.SensitiveData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SensitiveData",
+                    "printedName": "IosTrustedDeviceV2.SensitiveData",
+                    "usr": "s:18IosTrustedDeviceV213SensitiveDataO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IosTrustedDeviceV2.SensitiveData.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SensitiveData",
+                        "printedName": "IosTrustedDeviceV2.SensitiveData",
+                        "usr": "s:18IosTrustedDeviceV213SensitiveDataO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18IosTrustedDeviceV213SensitiveDataO8locationyA2CmF",
+            "mangledName": "$s18IosTrustedDeviceV213SensitiveDataO8locationyA2CmF",
+            "moduleName": "IosTrustedDeviceV2"
+          },
+          {
+            "kind": "Var",
+            "name": "vpn",
+            "printedName": "vpn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IosTrustedDeviceV2.SensitiveData.Type) -> IosTrustedDeviceV2.SensitiveData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SensitiveData",
+                    "printedName": "IosTrustedDeviceV2.SensitiveData",
+                    "usr": "s:18IosTrustedDeviceV213SensitiveDataO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IosTrustedDeviceV2.SensitiveData.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SensitiveData",
+                        "printedName": "IosTrustedDeviceV2.SensitiveData",
+                        "usr": "s:18IosTrustedDeviceV213SensitiveDataO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18IosTrustedDeviceV213SensitiveDataO3vpnyA2CmF",
+            "mangledName": "$s18IosTrustedDeviceV213SensitiveDataO3vpnyA2CmF",
+            "moduleName": "IosTrustedDeviceV2"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IosTrustedDeviceV2.SensitiveData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SensitiveData",
+                    "printedName": "IosTrustedDeviceV2.SensitiveData",
+                    "usr": "s:18IosTrustedDeviceV213SensitiveDataO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18IosTrustedDeviceV213SensitiveDataO8rawValueACSgSS_tcfc",
+            "mangledName": "$s18IosTrustedDeviceV213SensitiveDataO8rawValueACSgSS_tcfc",
+            "moduleName": "IosTrustedDeviceV2",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IosTrustedDeviceV213SensitiveDataO8rawValueSSvp",
+            "mangledName": "$s18IosTrustedDeviceV213SensitiveDataO8rawValueSSvp",
+            "moduleName": "IosTrustedDeviceV2",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IosTrustedDeviceV213SensitiveDataO8rawValueSSvg",
+                "mangledName": "$s18IosTrustedDeviceV213SensitiveDataO8rawValueSSvg",
+                "moduleName": "IosTrustedDeviceV2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18IosTrustedDeviceV213SensitiveDataO",
+        "mangledName": "$s18IosTrustedDeviceV213SensitiveDataO",
+        "moduleName": "IosTrustedDeviceV2",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2"
+      },
+      {
+        "kind": "Import",
+        "name": "DeviceKit",
+        "printedName": "DeviceKit",
+        "declKind": "Import",
+        "moduleName": "IosTrustedDeviceV2",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/IPAddressUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 89,
+      "length": 23,
+      "value": "\"https:\/\/api.ipify.org\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/JailbreakUtil.swift",
+      "kind": "Array",
+      "offset": 88,
+      "length": 1261,
+      "value": "[\"\/var\/cache\/apt\", \"\/var\/lib\/apt\", \"\/var\/lib\/cydia\", \"\/var\/log\/syslog\", \"\/var\/tmp\/cydia.log\", \"\/private\/var\/stash\", \"\/private\/var\/lib\/apt\", \"\/private\/var\/tmp\/cydia.log\", \"\/private\/var\/lib\/cydia\", \"\/private\/var\/mobile\/Library\/SBSettings\/Themes\", \"\/Applications\/Cydia.app\", \"\/Applications\/RockApp.app\", \"\/Applications\/Icy.app\", \"\/Applications\/WinterBoard.app\", \"\/Applications\/SBSetttings.app\", \"\/Applications\/blackra1n.app\", \"\/Applications\/IntelliScreen.app\", \"\/Applications\/Snoop-itConfig.app\", \"\/Applications\/MxTube.app\", \"\/Applications\/FakeCarrier.app\", \"\/bin\/sh\", \"\/bin\/bash\", \"\/etc\/apt\", \"\/etc\/ssh\/sshd_config\", \"\/usr\/libexec\/sftp-server\", \"\/usr\/libexec\/ssh-keysign\", \"\/usr\/bin\/sshd\", \"\/usr\/sbin\/sshd\", \"\/System\/Library\/LaunchDaemons\/com.saurik.Cydia.Startup.plist\", \"\/System\/Library\/LaunchDaemons\/com.ikey.bbot.plist\", \"\/Library\/MobileSubstrate\/DynamicLibraries\/LiveClock.plist\", \"\/Library\/MobileSubstrate\/DynamicLibraries\/Veency.plist\", \"\/Library\/MobileSubstrate\/MobileSubstrate.dylib\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/LocationUtil.swift",
+      "kind": "FloatLiteral",
+      "offset": 141,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/LocationUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 356,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/NotificationUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/BiometricInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 14,
+      "value": "\"is_available\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/BiometricInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 12,
+      "value": "\"is_changed\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 122,
+      "length": 18,
+      "value": "\"FazpassSecureKey\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 549,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 599,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 47,
+      "value": "\"fazpass.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 738,
+      "length": 22,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 804,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1162,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1212,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1260,
+      "length": 47,
+      "value": "\"fazpass.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1303,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1306,
+      "length": 22,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/SecureUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1362,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/UserDefaultsUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 28,
+      "value": "\"fazpass:account_index_list\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/UserDefaultsUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 26,
+      "value": "\"fazpass:encrypted_string\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/UserDefaultsUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 18,
+      "value": "\"fazpass:settings\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/CrossDeviceData.swift",
+      "kind": "StringLiteral",
+      "offset": 85,
+      "length": 17,
+      "value": "\"merchant_app_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/CrossDeviceData.swift",
+      "kind": "StringLiteral",
+      "offset": 154,
+      "length": 16,
+      "value": "\"device_receive\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/CrossDeviceData.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 16,
+      "value": "\"device_request\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/CrossDeviceData.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 19,
+      "value": "\"device_id_receive\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/CrossDeviceData.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 19,
+      "value": "\"device_id_request\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/CrossDeviceData.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 9,
+      "value": "\"expired\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/CrossDeviceData.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/CrossDeviceData.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 17,
+      "value": "\"notification_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/CrossDeviceData.swift",
+      "kind": "StringLiteral",
+      "offset": 606,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/VirtualIMEIUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 96,
+      "length": 17,
+      "value": "\"fazpass-service\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Utils\/VirtualIMEIUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 152,
+      "length": 15,
+      "value": "\"fazpass-vimei\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Fazpass.swift",
+      "kind": "BooleanLiteral",
+      "offset": 160,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Fazpass.swift",
+      "kind": "BooleanLiteral",
+      "offset": 359,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Fazpass.swift",
+      "kind": "BooleanLiteral",
+      "offset": 398,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Fazpass.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Fazpass.swift",
+      "kind": "Dictionary",
+      "offset": 486,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Fazpass.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2000,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Fazpass.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2035,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Fazpass.swift",
+      "kind": "StringLiteral",
+      "offset": 2077,
+      "length": 20,
+      "value": "\"Biometric Required\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/DeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 12,
+      "value": "\"os_version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/DeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/DeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 8,
+      "value": "\"series\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/DeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 12,
+      "value": "\"reset_time\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/FazpassSettings.swift",
+      "kind": "Array",
+      "offset": 1099,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/FazpassSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1163,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 663,
+      "length": 11,
+      "value": "\"is_rooted\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 701,
+      "length": 13,
+      "value": "\"is_emulator\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 747,
+      "length": 14,
+      "value": "\"is_gps_spoof\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 11,
+      "value": "\"signature\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 8,
+      "value": "\"is_vpn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 14,
+      "value": "\"is_clone_app\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 903,
+      "length": 19,
+      "value": "\"is_screen_sharing\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 946,
+      "length": 10,
+      "value": "\"is_debug\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 989,
+      "length": 13,
+      "value": "\"application\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 1067,
+      "length": 12,
+      "value": "\"sim_serial\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 1108,
+      "length": 14,
+      "value": "\"sim_operator\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 1149,
+      "length": 13,
+      "value": "\"geolocation\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 1188,
+      "length": 11,
+      "value": "\"client_ip\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 1224,
+      "length": 11,
+      "value": "\"fcm_token\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 1265,
+      "length": 11,
+      "value": "\"biometric\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/MetaData.swift",
+      "kind": "StringLiteral",
+      "offset": 1304,
+      "length": 14,
+      "value": "\"virtual_imei\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/VirtualIMEI.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/VirtualIMEI.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 15,
+      "value": "\"last_modified\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/VirtualIMEI.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 14,
+      "value": "\"created_date\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/VirtualIMEI.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 13,
+      "value": "\"last_access\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/VirtualIMEI.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 12,
+      "value": "\"permission\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-trusted-device-v2\/ios-trusted-device-v2\/IosTrustedDeviceV2\/Objects\/VirtualIMEI.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 10,
+      "value": "\"is_exist\""
+    }
+  ]
+}

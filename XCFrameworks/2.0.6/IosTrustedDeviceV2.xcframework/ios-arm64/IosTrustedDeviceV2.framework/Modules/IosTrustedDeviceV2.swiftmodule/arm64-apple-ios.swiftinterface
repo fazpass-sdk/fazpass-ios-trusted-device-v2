@@ -1,0 +1,87 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IosTrustedDeviceV2
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import CommonCrypto
+import CoreLocation
+import Foundation
+import LocalAuthentication
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct CrossDeviceData {
+  public let merchantAppId: Swift.String
+  public let deviceReceive: Swift.String
+  public let deviceRequest: Swift.String
+  public let deviceIdReceive: Swift.String
+  public let deviceIdRequest: Swift.String
+  public let expired: Swift.String
+  public let status: Swift.String
+  public let notificationId: Swift.String?
+  public let action: Swift.String?
+  public init(data: [Swift.AnyHashable : Any])
+  public func isNotNull() -> Swift.Bool
+  public func toDict() -> [Swift.String : Swift.String?]
+}
+@_hasMissingDesignatedInitializers public class CrossDeviceDataStream {
+  public func listen(callback: @escaping (IosTrustedDeviceV2.CrossDeviceData) -> Swift.Void)
+  public func close()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Fazpass : ObjectiveC.NSObject {
+  public static let shared: IosTrustedDeviceV2.Fazpass
+  public func `init`(publicKeyAssetName: Swift.String, application: UIKit.UIApplication, fcmAppId: Swift.String)
+  public func initWithRawPublicKey(rawPublicKey: Swift.String, application: UIKit.UIApplication, fcmAppId: Swift.String)
+  public func registerDeviceToken(deviceToken: Foundation.Data)
+  public func generateMeta(accountIndex: Swift.Int = -1, biometricAuth: Swift.Bool = false, biometricMessage: Swift.String = "Biometric Required", resultBlock: @escaping (Swift.String, IosTrustedDeviceV2.FazpassError?) -> Swift.Void)
+  public func generateNewSecretKey() throws
+  public func setSettings(accountIndex: Swift.Int, settings: IosTrustedDeviceV2.FazpassSettings?)
+  public func getSettings(accountIndex: Swift.Int) -> IosTrustedDeviceV2.FazpassSettings?
+  public func getCrossDeviceDataStreamInstance() -> IosTrustedDeviceV2.CrossDeviceDataStream
+  public func getCrossDeviceDataFromNotification(userInfo: [Swift.AnyHashable : Any]?) -> IosTrustedDeviceV2.CrossDeviceData?
+  @objc deinit
+}
+public enum FazpassError : Swift.Error {
+  case biometricNoneEnrolled
+  case biometricAuthFailed
+  case biometricNotAvailable(message: Swift.String)
+  case biometricNotInteractive
+  case encryptionError(message: Swift.String)
+  case publicKeyNotExist
+  case uninitialized
+}
+public struct FazpassSettings {
+  public let sensitiveData: [IosTrustedDeviceV2.SensitiveData]
+  public let isBiometricLevelHigh: Swift.Bool
+  public static func fromString(_ settingsString: Swift.String) -> IosTrustedDeviceV2.FazpassSettings
+  public func toString() -> Swift.String
+  public class Builder {
+    public var sensitiveDataList: [IosTrustedDeviceV2.SensitiveData] {
+      get
+    }
+    public var isBiometricLevelHigh: Swift.Bool {
+      get
+    }
+    public init()
+    public func enableSelectedSensitiveData(sensitiveData: IosTrustedDeviceV2.SensitiveData...) -> IosTrustedDeviceV2.FazpassSettings.Builder
+    public func disableSelectedSensitiveData(sensitiveData: IosTrustedDeviceV2.SensitiveData...) -> IosTrustedDeviceV2.FazpassSettings.Builder
+    public func setBiometricLevelToHigh() -> IosTrustedDeviceV2.FazpassSettings.Builder
+    public func setBiometricLevelToLow() -> IosTrustedDeviceV2.FazpassSettings.Builder
+    public func build() -> IosTrustedDeviceV2.FazpassSettings
+    @objc deinit
+  }
+}
+public enum SensitiveData : Swift.String {
+  case location
+  case vpn
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension IosTrustedDeviceV2.SensitiveData : Swift.Equatable {}
+extension IosTrustedDeviceV2.SensitiveData : Swift.Hashable {}
+extension IosTrustedDeviceV2.SensitiveData : Swift.RawRepresentable {}
