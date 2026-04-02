@@ -1,0 +1,49 @@
+name: Conditional Release on Push
+
+on:
+  push:
+  
+permissions:
+  contents: write
+
+jobs:
+  create_release_if_ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+    
+      - name: Check commit author
+        id: check_author
+        run: |
+          AUTHOR=$(git log -1 --pretty=format:'%an')
+          echo "commit_author=$AUTHOR" >> $GITHUB_OUTPUT
+
+      - name: Get commit message and description
+        id: commit_info
+        run: |
+          echo "commit_title=$(git log -1 --pretty=%s)" >> $GITHUB_OUTPUT
+          echo "commit_body<<EOF" >> $GITHUB_OUTPUT
+          git log -1 --pretty=%b >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Check if prerelease based on commit title
+        id: check_prerelease
+        run: |
+          title="${{ steps.commit_info.outputs.commit_title }}"
+          if [[ "${title,,}" == p* ]]; then
+            echo "prerelease=true" >> $GITHUB_OUTPUT
+          else
+            echo "prerelease=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create release if commit author is github-actions
+        if: ${{ steps.check_author.outputs.commit_author == 'github-actions' }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.commit_info.outputs.commit_title }}
+          body: |
+            ${{ steps.commit_info.outputs.commit_body }}
+          draft: false
+          prerelease: ${{ steps.check_prerelease.outputs.prerelease }}
+          make_latest: "true"
