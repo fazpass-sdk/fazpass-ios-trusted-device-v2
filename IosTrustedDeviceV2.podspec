@@ -2,9 +2,7 @@ Pod::Spec.new do |spec|
 spec.name       = "IosTrustedDeviceV2"
 spec.version    = "2.0.6"
 spec.summary    = "IOS Trusted Device"
-spec.description    = <<-DESC
-IOS counterpart for fazpass trusted device.
-DESC
+spec.description    = "IOS counterpart for fazpass trusted device."
 spec.license    = { :type => "MIT", :file => "LICENSE" }
 spec.author    = { "Citcall Indonesia" => "citcall.dev@gmail.com" }
 spec.homepage    = "https://fazpass.com"
